@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <section class="top-section">
+        <div class="heading">
+            <h1 class="main-heading">BMI Calculator</h1>
+        </div>
+    </section>
+
+    <section class="main-section">
+        <form class="form-1" onsubmit="bmiCalculator(),showResult(); return false">
+                <p class="entry">Enter your Name<br><input class="txt-in" type="text" id="name"></p> 
+                <p class="entry">Enter your Weight (in kgs)<br><input class="txt-in" type="number"  name="weight" id="weight" step="any"></p>
+                <p class="entry">Enter your Height (in meters)<br><input class="txt-in" type="number" name="height" id="height" step="any"></p>
+                 <button class="btn btn-txt" type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section class="go-back">
+            <div class="back-txt">
+                    <button class="btn btn-txt" onclick="window.location.reload();">Check Again</button>
+            </div>
+    </section>
+
+    
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

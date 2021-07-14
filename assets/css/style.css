@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.top-section{
+    padding:3%;
+}
+
+.main-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-heading:hover{
+    transform: translate(0px,-5px);
+    cursor: pointer;
+    
+}
+
+.main-section{
+        padding: 2%;
+        text-align: center;
+}
+
+
+
+.entry{
+    padding: 10px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+
+.txt-in{
+    padding: 2px;
+    margin: 2%;
+    height: 40px;
+    width: 250px;
+    font-size:32px ;
+}
+
+
+.btn{
+    padding:1%;
+    width:300px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-txt{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.go-back{
+    visibility: hidden;
+    transition: all 0.5s ease-in;
+}
+
+
+
