@@ -15,8 +15,6 @@ function bmiCalculator() {
         font-weight: bold; 
         margin-top: 10%;
         padding:10px;
-//         margin-left:200px;
-//         margin-right:200px;
     ">   
         ${n} your BMI is ${bmi}
     </p>`;
